@@ -1,0 +1,49 @@
+.app__video{
+  height: 100vh;
+  position: relative;
+}
+
+.app__video video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app__video-overlay{
+  position: absolute;
+  inset: 0 ;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.app__video-overlay_circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  border: 1px solid var(--color-golden);
+  cursor: pointer;
+  
+}
+
+@media screen and (max-width:460px) {
+  .app__video{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .app__video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .app__video-overlay_circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  
+    border: 1px solid var(--color-golden);
+    cursor: pointer;
+    
+  }
+}
