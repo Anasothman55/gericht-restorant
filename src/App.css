@@ -186,6 +186,15 @@ html{
 }
 
 @media screen and (max-width: 450px) {
+  .mycustom :nth-child(2){
+    margin: 1rem 0 0.5rem 0 !important;
+  }
+  .mycustomh1{
+    margin-bottom: 2rem !important;
+  }
+  .mycustom button{
+    margin-top: 2rem !important;
+  }
   .p__opensans {
     font-size: 12px;
   }
