@@ -21,7 +21,7 @@
   margin-right: 2rem;
 }
 
-@media screen and (max-width: 460px ) {
+@media screen and (max-width: 850px ) {
   .app__laurels-awards{
     display: grid;
     grid-template-columns: 1fr ;
@@ -30,3 +30,4 @@
     margin-top: 3rem;
   }
 }
+

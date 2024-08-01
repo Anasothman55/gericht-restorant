@@ -46,6 +46,12 @@
   overflow: hidden;
 }
 
+.app__gallery-images_card:hover{
+  border:1px solid rgba(220, 202, 135,0.5) ;
+  
+
+
+}
 
 .gallery__image-icon{
   position: absolute;
@@ -131,6 +137,9 @@
   .app_gallery{
     padding: 4rem 0 4rem 4rem;
   }
+  .app__gallery-content{
+    min-width: 200px;
+  }
 }
 @media screen and (max-width:460px) {
   .app_gallery{
@@ -145,4 +154,6 @@
     height: 320px;
 
   }
+
+  
 }
